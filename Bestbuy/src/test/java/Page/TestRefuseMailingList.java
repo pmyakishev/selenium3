@@ -5,14 +5,13 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 /**
- * Created by admin on 1/20/17.
+ * Created by admin on 1/31/17.
  */
-public class TestCart extends BBCommonAPI {
+public class TestCloseMailingList extends BBCommonAPI {
 
-    @Test(priority = 1)
-    public void testTopNav() throws InterruptedException {
+    @Test
+    public void TestRefuseMailingList() throws InterruptedException{
         BBCommonAPI bb = PageFactory.initElements(driver, BBCommonAPI.class);
-        bb.refuseMailingListOption();
-        sleepFor(1);
+        bb.refuseMailingList();
     }
 }
