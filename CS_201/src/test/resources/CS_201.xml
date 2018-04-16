@@ -18,14 +18,7 @@
             <!--<class name="Page.TestAddToCart"/>-->
             <!--<class name="Page.TestDropDownDeals"/>-->
             <!--<class name="Page.TestSearchItemsByExcel"/>-->
-            <!--<class name="Page.GlobalHeader"/>-->
-            <!--<class name="Page.TestStoreLocator"/>-->
-            <!--<class name="Page.TestOrderStatus"/>-->
-            <!--<class name="Page.TestMyAccountPage"/>-->
-            <!--<class name="Page.TestSuccessfulLogin"/>-->
-            <!--<class name="Page.TestUserLoginButton"/>-->
-            <!--<class name="Page.TestRefuseMailingList"/>-->
-            <!--<class name="Page.TestSearchBySQL"/>-->
+            
         </classes>
     </test>
 </suite>
