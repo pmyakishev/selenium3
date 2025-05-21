@@ -11,7 +11,6 @@
     <modules>
         <module>Generic</module>
         <module>Alibaba</module>
-        <module>Cnn</module>
         <module>Citibank</module>
         <module>Facebook</module>
         <module>LIJ</module>
@@ -22,28 +21,28 @@
             <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-java</artifactId>
-                <version>3.0.1</version>
+                <version>4.12.1</version>
             </dependency>
-            <dependency>
+            <!-- <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-server</artifactId>
                 <version>3.0.1</version>
-            </dependency>
+            </dependency> -->
             <dependency>
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
-                <version>6.10</version>
-            </dependency>
+                <version>7.8.0</version>
+            <!-- </dependency> -->
             <!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
-            <dependency>
+            <!-- <dependency> -->
                 <groupId>org.mongodb</groupId>
-                <artifactId>mongo-java-driver</artifactId>
-                <version>3.4.1</version>
+                <artifactId>mmongodb-driver-sync</artifactId>
+                <version>4.10.2</version>
             </dependency>
             <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
-            <version>3.15</version>
+            <version>5.2.3</version>
         </dependency>
         </dependencies>
     </dependencyManagement>
@@ -70,13 +69,6 @@
             </modules>
         </profile>
         <profile>
-            <id>cnn-app</id>
-            <modules>
-                <module>Generic</module>
-                <module>Cnn</module>
-            </modules>
-        </profile>
-        <profile>
             <id>facebook-app</id>
             <modules>
                 <module>Generic</module>
@@ -100,7 +92,6 @@
                 <module>Alibaba</module>
                 <module>Bestbuy</module>
                 <module>Citibank</module>
-                <module>Cnn</module>
                 <module>Facebook</module>
                 <module>LIJ</module>
             </modules>
