@@ -1,10 +1,12 @@
 package methods;
 
-import Base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+
+import base.CommonAPI;
+
 import java.io.IOException;
 import java.sql.*;
 

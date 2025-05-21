@@ -1,6 +1,5 @@
 package SearchItems;
 
-import Base.CommonAPI;
 import dataToSearch.ItemsToBeSearched;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.DataProvider;
@@ -8,7 +7,7 @@ import org.testng.annotations.Test;
 import PageFactorySearch.SearchItems;
 import Utility.ConnectDB;
 //import sun.text.normalizer.Utility;
-
+import base.CommonAPI;
 
 import javax.swing.text.Utilities;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package Base;
+package base;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -261,15 +261,15 @@ public class CommonAPI {
     }
     //Synchronization
     public void waitUntilClickAble(By locator) {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, java.time.Duration.ofSeconds(10));
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
     public void waitUntilVisible(By locator) {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, java.time.Duration.ofSeconds(10));
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
     public void waitUntilSelectable(By locator) {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, java.time.Duration.ofSeconds(10));
         boolean element = wait.until(ExpectedConditions.elementToBeSelected(locator));
     }
     public void upLoadFile(String locator, String path) {

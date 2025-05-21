@@ -8,7 +8,7 @@
     <parameter name="os" value="Mac"/>
     <parameter name="url" value="http://www.cnn.com/"/>
     <parameter name="browserName" value="chrome"/>
-    <parameter name="browserVersion" value="50"/>
+    <parameter name="browserVersion" value="136"/>
 
     <test name = "Bestbuy Home Page">
         <classes>

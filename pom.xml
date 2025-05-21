@@ -32,11 +32,11 @@
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
                 <version>7.8.0</version>
-            <!-- </dependency> -->
+            </dependency>
             <!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
-            <!-- <dependency> -->
+            <dependency>
                 <groupId>org.mongodb</groupId>
-                <artifactId>mmongodb-driver-sync</artifactId>
+                <artifactId>mongodb-driver-sync</artifactId>
                 <version>4.10.2</version>
             </dependency>
             <dependency>
